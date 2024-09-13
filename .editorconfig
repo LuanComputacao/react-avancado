@@ -39,6 +39,11 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+# Handlebars files
+[*.hbs]
+indent_style = space
+indent_size = 2
+
 # Markdown files
 [*.md]
 trim_trailing_whitespace = false

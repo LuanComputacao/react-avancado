@@ -5,7 +5,7 @@ import Main from './index'
 describe('<Main />', () => {
   it('should render the heading', () => {
     // render the component
-    const { container } = render(<Main />)
+    const { container } = render(<Main name="LuanComputacao" />)
     // find the heading element
     expect(
       screen.getByRole('heading', { name: /luancomputacao/i })
@@ -17,7 +17,7 @@ describe('<Main />', () => {
 
 it('should render the colors correctly', () => {
   // render the component
-  const { container } = render(<Main />)
+  const { container } = render(<Main name="Some name" />)
   // find the heading element
   expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
 })
