@@ -2,5 +2,5 @@ import React from 'react'
 import Main from '@/components/Main'
 
 export default function Home() {
-  return <Main></Main>
+  return <Main name="LuanComputacao"></Main>
 }
